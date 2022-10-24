@@ -5,7 +5,7 @@ from trycourier import Courier
 import os
 key = os.environ["sidkey"]
 
-auth = decrypter.decrypt_text('|e/En^R|=0/R^}R/E^2^!~2M/Q/;^!`L~7`!^9F`5~}|54/7~;^g~K~x^W/[~g/o^[', key)
+auth = decrypter.decrypt_text('my encrypted auth token made using encrypt_auth.py', key)
 
 SHEET_ID="1UWT83GYsDvtabgTPZH7L9M-eT4fStvavwmPbVngAc5c"
 SHEET_NAME="Sheet1"
